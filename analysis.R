@@ -173,25 +173,21 @@ num_protests_in_2020 <- length(protests_in_2020)
 # In this section, you will explore *why* the protests happened.
 
 # (5.a) Extract the `Event..legacy..see.tags.` column into a variable called `purposes` (1 point)
+purposes <- protest_data$Event..legacy..see.tags.
 
 # (5.b) How many different unique purposes are listed in the dataset? (1 point)
 # Save this number in a variable called `num_purposes`
+num_purposes <-unique(purposes)
 
 # That's quite a few! Use View() to examine the `purposes` vector. You will notice a common pattern for each purpose, formatted something like this: Civil Rights (Transgender Rights)
+View(num-purposes)
 
 # (5.c) To get a summary of just the higher level categories (e.g., just "Civil Rights" and not "(Transgender Rights)"), we're going to use some R functions to extract only the text before the parenthesis and then save them in a variable `high_level_purposes` (5 points)
-
-# There are some built-in R functions where you can replace text using regular expressions.
-# Regular expressions are a special syntax that lets you match patterns.
-# For example, see what happens when you run the code below, and use the help() function to learn more about this function
-gsub("@.*", "", "melwalsh@uw.edu")
-# Note: Some regular expression characters, like parenthesis, have a special meaning, so if you want to use them, you need to first "escape" them: https://uc-r.github.io/regex#metacharacters
-# See what happens when you run the code below, and use the help() function to learn more about this function
- trimws(" hello ")
- 
+high_level_purposes <- trimws(gsub("()","",purposes))
 
 # Make a table of your `high_level_protests` by using table() and then View() it
- 
+ high_level_protests <- table(high_level_purposes)
+ View(high_level_protests)
  # Reflection 4 (answer in README.md file): What is the first and fourth most frequent category of protest? Do these frequencies align with your sense of the major protest movements in the U.S. in the last few years? Why or why not? (3 points)
 
 # Congrats! You're finished. Don't forget to save, push all changes to GitHub, and submit the link to your repository on Canvas!
