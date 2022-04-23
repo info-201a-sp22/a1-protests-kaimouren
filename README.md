@@ -38,17 +38,18 @@ They record the most conservative attendance number from the news articles.  int
 ## While You Code: Critical Analysis & Reflection
 
 - Reflection 1: Why do you think the mean is higher than the median? Which metric would you use in a report about this data, and why? Please answer in 2-3 sentences (2 points)
-
+The mean is higher than the median because the max of attendees is much larger than other data. I would use median in a report about this data because the influence of the largest data is less on median than on mean.
 - Reflection 2: Before actually calculating the number of protests that occurred in 2018, 2019, 2020, record your guesses for the following questions. (1 point)
 
   Guess: Do you think there were more protests in 2019 than in 2018? Why or why not? Please answer in 1 or 2 sentences
-
+I believe there were more protests in 2019 than in 2018 because when the issue of racism get more serious, it's more possible to be a event that attract the public's attention.
   Guess: Do you think there were more protests in 2020 than in 2019? Why or why not? Please answer in 1 or 2 sentences
-
+I believe there were more protests in 2020 because George Floyd died this year which brought attention to the issue of racism to a climax. As more people pay attention to this issue, more protests should happen.
 - Reflection 3: Does the change in the number of protests from 2018 to 2019 to 2020 surprise you? Why or why not? What do you think explains the fluctuation? Please answer in 1 or 2 sentences (2 points)
+What surprised me is that there were more protests in 2018 than in 2019. I think the explanation should be that fewer protests on the issue of racism in 2019 make it more serious in 2020.
 
 - Reflection 4: What is the first and fourth most frequent category of protest? Do these frequencies align with your sense of the major protest movements in the U.S. in the last few years? Why or why not? (3 points)
-
+Racial Injustice is the first most frequent category of protest and Immigration is the fourth most frequent category of protest. These frequencies align with my sense because more immigration happen in recent years and Immigrants are a particularly vulnerable group.
 ## After You Code: Critical Analysis & Reflection
 
 In the second chapter of *Data Feminism*, Klein and D'Ignazio describe 4 ways that data scientists can challenge power and take action:

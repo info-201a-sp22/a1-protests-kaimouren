@@ -18,7 +18,6 @@
 # Part 1:Set up -----------------------------------------------------------
 
 # In this section, you will load the CountLove data and necessary packages.
-?stringr
 # (1.a) Load the `stringr` package, which you will use later. (1 point)
 library("stringr")
 # (1.b) Load the data from CountLove by using the following URL: https://countlove.org/data/data.csv
@@ -75,7 +74,7 @@ difference_attendees <- mean_attendees - median_attendees
 locations <- protest_data$Location
 # (3.b) How many *unique* locations are in the dataset?
 # Save the number of unique locations in a variable called `num_locations` (1 point)
-num_location <- unique(locations)
+num_location <- length(unique(locations))
 
 # (3.c) How many protests occurred in the state of Washington?
 # Use a function from the stringr package to detect the letters "WA" in the Location column and filter to only keep WA locations
@@ -177,7 +176,7 @@ purposes <- protest_data$Event..legacy..see.tags.
 
 # (5.b) How many different unique purposes are listed in the dataset? (1 point)
 # Save this number in a variable called `num_purposes`
-num_purposes <-unique(purposes)
+num_purposes <-length(unique(purposes))
 
 # That's quite a few! Use View() to examine the `purposes` vector. You will notice a common pattern for each purpose, formatted something like this: Civil Rights (Transgender Rights)
 View(num-purposes)
