@@ -60,7 +60,9 @@ In the second chapter of *Data Feminism*, Klein and D'Ignazio describe 4 ways th
 > (4) Teach: The identities of data scientists matter, so how might we engage and empower newcomers to the field in order to shift the demographics and cultivate the next generation of data feminists?  
 
 - How does the CountLove project embody one or more of these 4 forms of challenging power? Please answer in at least 3-4 sentences (3 points)
-
+ I believe CountLove project embody the first and forth forms of challeenging power.  Tommy Leung and Nathan Perkins worked on our Masters in Technology and Policy in MIT which demonstrate their strong background about this topic. Also, even the records of protests from newspaper didn't mention the attendees, they will sate the event.
 - What is the most interesting or surprising thing you learned from this analysis? Please answer in at least 2-3 sentences (2 points)
+This analysis claim the importance of how to deal with missing data. When I do my research before, I would just ignore the missing data. But now I realize I have to deal with the missing data carefully to make my result more convincing.
 
 - What is a kind of analysis that you would like to do or that would be interesting to do with the CountLove data that you don't have the time or skills to accomplish at this moment? Please answer in at least 2-3 sentences (2 points)
+I wonder the number of people who protest for certain reason. For example, how many people protest for healthcare. By knowing this, I can figure out the most serious problem existed now.

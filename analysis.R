@@ -92,7 +92,7 @@ prop_in_wa <- num_in_wa/num_location
 # If the location is not found in the dataset, the function should return the sentence: "Sorry, that location is not found." (6 points)
 count_protests_in_location <- function(location){
   if(sum(str_detect(location, location)) == 0){
-    print("Sorry, that location is not found.")
+    paste("Sorry, that location is not found.")
   } else {
     num_in_location <- sum(str_detect(locations, location))
     paste("There were ", num_in_location, " protests ", location)
