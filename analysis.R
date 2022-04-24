@@ -135,8 +135,8 @@ earliest_protest <- min(dates)
 # (4.d) What is the timespan of the dataset â€? in other words, the distance between the earliest protest and most recent protest? (1 point)
 # Hint: R can do math with dates pretty well by default!
 # Store this value in a variable called `time_span`
-time_span <- difftime(most_recent_protest, earliest_protest, units = "days")
-
+time_span <- difftime(earliest_protest, most_recent_protest, units = "days")
+time_span
 # (4.e) Now, create a vector of only the dates that are in 2020.
 # Note: If you want only dates after a certain start date, you can use "2020-01-01" with comparison operators (==, >=, <=)
 # Store this value in a variable called `protests_in_2020` (2 points)
